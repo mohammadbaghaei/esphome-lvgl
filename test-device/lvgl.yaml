@@ -28,6 +28,7 @@ lvgl:
       layout: 
         type: flex
         flex_flow: row_wrap
+      scrollbar_mode: off
       width: 100%
       bg_color: Black
       bg_opa: cover
