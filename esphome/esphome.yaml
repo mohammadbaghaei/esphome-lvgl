@@ -13,13 +13,13 @@ wifi:
 packages:
   setup:
     url: https://github.com/mohammadbaghaei/esphome-lvgl/
-    files: [device/esp32-s3-touch-lcd-7.yaml,
+    files: [device/device.yaml,
             addon/time.yaml,
             addon/backlight.yaml,
             addon/network.yaml,
             assets/fonts.yaml,
             assets/icons.yaml,
             theme/button.yaml,
-            office/sensors.yaml,
-            office/lvgl.yaml]
+            device/sensors.yaml,
+            device/lvgl.yaml]
     refresh: 1sec
